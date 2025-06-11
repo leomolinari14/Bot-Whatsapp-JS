@@ -1,0 +1,39 @@
+# Dependências do Node.js
+node_modules/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Ambiente do sistema operacional
+.DS_Store
+Thumbs.db
+# Dados do ambiente de execução
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Saídas de builds
+dist/
+build/
+.tmp/
+# Cache e lock files
+*.cache
+*.lock
+.pnpm-debug.log
+/tokens
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Configuração de testes
+coverage/
+# Logs de ferramentas de depuração
+.nyc_output/
