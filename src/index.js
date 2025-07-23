@@ -13,9 +13,12 @@ const start = async (client) => {
     // Respostas pré-definidas usando um Map para buscas mais eficientes
     // Pode estar em um arquivo separado ou em um banco de dados
     const answers = new Map([
-      ['oi', 'Oi, tudo bem?'],
-      ['e com voce', 'Estou bem, obrigado por perguntar!'],
-      ['eai', 'fala noiaaaa'],
+      ['Oi', 'Oi, tudo bem?'],
+      ['E com voce', 'Estou bem, obrigado por perguntar!'],
+      ['tarde', 'Boa tarde!'],
+      ['dia', 'Bom dia!'],
+      ['noite', 'Boa noite!'],
+      ['eai', 'E aí, tudo certo?'],
     ]);
 
     // Normaliza uma string (para evitar problemas com maiúsculas, minúsculas ou acentuação)
